@@ -2,7 +2,7 @@ import requests
 
 def get_cat():
     url = 'https://cataas.com/cat'
-    file_name = 'cat.png'
+    file_name = 'cat.jpg'
 
     r = requests.get(url)
 
